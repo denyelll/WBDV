@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plans</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap">
+    <link href="https://db.onlinewebfonts.com/c/f1195bbd6aaa8a862f7ab23d4c363f3e?family=SofiaRoughBlackInline" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&display=swap" rel="stylesheet">
+   <style>
+        body {
+            background-color: white;
+            color: rgb(0, 0, 0);
+            margin: 0;
+            text-align: center;
+            }
+        .title-nav a {
+            display: inline-block;
+            font-size: 4rem;
+            font-weight: 700;
+            font-family: 'Bodoni Moda', serif;
+            margin-bottom: 0px;
+            text-decoration: none;
+            color: black;
+            }
+        /* Hover Effects */
+        .title-nav a:hover {
+            color: rgb(129, 208, 245);
+            text-shadow: rgb(129, 208, 245); /* Glow effect */
+            opacity: 0.7; /* Fading effect */
+            }
+        /*About, Gallery, Plans*/
+        .main-nav {
+            font-family: 'SofiaRoughBlackInline', sans-serif;
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+            align-items: center;
+            margin-top: 0px;
+        }
+        .main-nav a {
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            background: linear-gradient(to right, #63c5da, #0047ab);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .main-nav a:hover {
+            opacity: 0.7;
+        }
+        .footer-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .footer-icons img {
+            width: 250px; /* Adjust size */
+            height: 150px;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+        .footer-icons img:hover {
+            opacity: 0.7;
+        }
+        .card {
+            width: 250px;
+            background: white;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .card-content p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .card-content p span {
+            font-weight: bold;
+        }
+        .card-container {
+            display: flex;
+            justify-content: center; 
+            gap: 20px; 
+            flex-wrap: wrap; 
+            margin-top: 50px; 
+        }
+        .subscribe-container {
+            background-color: #f0f0f0;  
+            padding: 40px 50px;  /* Top-bottom: 40px, Left-right: 50px */
+            margin: 50px auto;  
+            width: 50%;  
+            max-width: 600px; 
+        }
+        .subscribe-container h2 {
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 'EB Garamond', serif;
+        }
+        .subscribe-container p {
+            font-size: 16px;
+            color: #555;
+        }
+        .subscribe-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .subscribe-form input {
+            width: 300px;
+            padding: 12px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .subscribe-form button {
+            background-color: black;
+            color: white;
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .subscribe-form button:hover {
+            opacity: 0.8;
+        }
+        
+</style>
+</head>
+<body>
+    <h1 class="title-nav"><a href="mainpage.html">film_dnl</a></h1>
+    <nav class="main-nav">
+        <a href="about.html">ABOUT</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="plans.html">PLANS</a>
+    </nav>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://i.pinimg.com/236x/11/f9/e4/11f9e46b51d8eed894396afda56b3458.jpg" alt="Architecture">
+            <div class="card-content">
+                <h3>Marriage Shoot</h3>
+                <p><span>Inclusion</span> : Film & Shoot</p>
+                <p><span>Setting</span> : Manila Cathedral</p>
+                <p><span>Pricing</span> : $608.27</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/236x/2f/84/34/2f8434eb43f64f750b2704fb52cb0657.jpg" alt="Architecture">
+            <div class="card-content">
+                <h3>Photoshoot</h3>
+                <p><span>Inclusion</span> : Studio, HMU, and Clothes</p>
+                <p><span>Setting</span> : Quixote Studios</p>
+                <p><span>Pricing</span> : $695.27</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.pinimg.com/236x/4e/80/fe/4e80fe0fdf1c55ca6191b99166974793.jpg" alt="Architecture">
+            <div class="card-content">
+                <h3>Short Film</h3>
+                <p><span>Inclusion</span> : Venue, Materials,& HMU</p>
+                <p><span>Setting</span> : Preffered Venue</p>
+                <p><span>Pricing</span> : $868.82</p>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe-container">
+        <h2>get film_dnled!</h2>
+        <p>Sign up to take your next shoot in a film_dnl way.</p>
+        <form class="subscribe-form">
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit" onclick="alert('Received! Please wait for an update.')">Submit</button>
+        </form>
+    </div>
+    <!--Footerrr-->
+    <footer>
+        <div class="footer-icons">
+            <a href="https://www.instagram.com/de.nyel/">
+            <img src="images/2-removebg-preview.png" alt="instagram account of the artist">
+            </a>
+            <a href="https://m.me/daniel.mansanadis.3">
+            <img src="images/3-removebg-preview.png" alt="Messenger account of the artist">
+            </a>
+            <a href="https://www.linkedin.com/in/john-daniel-mansanadis-7a476a355">
+            <img src="images/4-removebg-preview.png" alt="linkedin account of the artist">
+        </a>
+        </div>
+    </footer>
+</body>
+</html>
